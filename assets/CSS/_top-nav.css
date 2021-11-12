@@ -1,0 +1,154 @@
+.custom-top-nav {
+  background-color: #252f63;
+}
+
+.custom-top-nav-font-size {
+  font-size: 14px;
+}
+
+.custom-top-nav-search-dropdown {
+  transform: translate3d(7px, 38px, 0px) !important;
+  width: 300px;
+}
+
+.custom-shopping a {
+  background: transparent !important;
+  border: none;
+}
+
+.custom-shopping i {
+  font-size: 16px;
+  vertical-align: -2px;
+}
+.custom-shop-btn {
+  width: 90px;
+}
+.custom-shop-btn:hover {
+  box-shadow: 0 0 3px 0 #888686;
+}
+.custom-dropdown-toggle {
+  outline: none !important;
+  border: none !important;
+}
+.custom-dropdown-toggle:focus {
+  box-shadow: 0 0 3px 0 #888686;
+}
+.custom-dropdown-toggle::after {
+  vertical-align: 2px;
+}
+
+.custom-border-color {
+  border-color: #c6c3cc !important;
+}
+@media (min-width: 1200px) {
+  .custom-border-left {
+    border-left: 0.1em solid transparent;
+  }
+}
+
+.custom-shopping-dropdown {
+  min-width: 250px;
+}
+
+.custom-shopping-dropdown img {
+  width: 42px;
+  height: auto;
+}
+
+.custom-shopping-dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+.custom-shopping-dropdown ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-navbar,
+.custom-navbar li {
+  position: unset;
+}
+
+.custom-navbar a {
+  transition: 0.5s ease;
+}
+
+.custom-navbar i {
+  font-size: 12px;
+  vertical-align: -1px;
+}
+
+.custom-navbar .dropdown-menu a:hover {
+  /* margin-right: 10px; */
+  transform: translateX(-10px);
+  background: none;
+}
+
+.custom-navbar,
+.custom-navbar .dropdown-menu .container {
+  align-items: flex-start !important;
+}
+.custom-entrance {
+  color: #ec3348;
+  transition: all 0.1s ease;
+  padding: 5px 10px;
+}
+.custom-entrance:hover {
+  box-shadow: 0 0 3px 0 #888686;
+  color: #ec3348;
+}
+@media (min-width: 992px) {
+  .custom-entrance {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .custom-entrance {
+    margin: 18px 14px 0 0;
+  }
+}
+
+.custom-entrance i {
+  font-size: 20px;
+  vertical-align: -5px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
+.custom-searchbox {
+  background-color: #f0f0f1;
+  border: 1px solid #efefef;
+}
+
+.custom-searchbox:focus {
+  box-shadow: none;
+  border-color: rgb(242, 243, 245);
+}
+
+.custom-search-dropdown {
+  background-color: #efefef;
+}
+.custom-search-dropdown:focus {
+  box-shadow: none;
+}
+
+.custom-search-btn {
+  width: 57px;
+}
+
+.burger-icon i {
+  font-size: 24px;
+  color: #726f6f;
+}
+
+.custom-search-btn:focus {
+  box-shadow: none;
+}
+.menu-img {
+  width: 400px;
+}

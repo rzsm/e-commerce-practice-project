@@ -1,0 +1,84 @@
+.owl-card {
+  max-width: 230px;
+  outline: none !important;
+  border: none !important;
+  margin: 10px 0 10px 0;
+  padding: 16px 12px 10px 12px;
+  color: rgb(54, 51, 51);
+  font-size: 13px;
+  transition: 0.4s ease;
+  line-height: 24px;
+}
+
+.owl-card:hover {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  z-index: 1;
+  transform: translateY(-2px);
+}
+
+.owl-card .card-img-top {
+  width: 80% !important;
+  margin-right: 24px;
+}
+
+.sale-price span {
+  background-color: #e6123d;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.sale-price s {
+  font-size: 14px;
+  line-height: 24px;
+  color: #949191;
+  display: inline-block;
+}
+
+.product-price,
+.sale-price {
+  font-size: 12px;
+  float: left;
+}
+.product-price span {
+  font-size: 15px;
+  color: rgb(14, 13, 13);
+  font-weight: bold;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  width: 49px;
+  height: 90px;
+  box-shadow: 0 0 5px #dad5d5;
+  border-radius: 10%;
+  z-index: 2;
+  background-color: white !important;
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span {
+  font-size: 50px;
+  color: rgb(82, 79, 79);
+}
+
+.owl-nav .owl-next {
+  left: -3px !important;
+}
+
+.owl-nav .owl-prev {
+  right: -3px !important;
+}
+
+.owl-carousel {
+  overflow: hidden;
+}
+
+.owl-title {
+  right: 18px;
+  top: 9px;
+}

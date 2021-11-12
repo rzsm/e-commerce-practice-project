@@ -1,0 +1,23 @@
+.modal-header {
+  border: none !important;
+}
+
+.custom-modal-footer a {
+  color: rgb(117, 112, 112);
+}
+
+.custom-modal-footer a:hover {
+  color: rgb(46, 43, 43);
+}
+
+#formGroupExampleInput,
+#formGroupExampleInput2 {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #dad8d8;
+}
+#formGroupExampleInput:focus,
+#formGroupExampleInput2:focus {
+  border-color: none;
+  box-shadow: none;
+}

@@ -1,0 +1,9 @@
+.shipping-wrapper {
+  font-size: 13px;
+}
+
+.shipping-wrapper img {
+  width: 35px;
+  margin-left: 14px;
+  float: right;
+}

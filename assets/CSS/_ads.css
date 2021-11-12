@@ -1,0 +1,17 @@
+.ads-wrapper img {
+  height: fit-content !important;
+  width: 100%;
+}
+
+.zoom-img-wrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.zoom-img {
+  transition: all 0.58s ease;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}

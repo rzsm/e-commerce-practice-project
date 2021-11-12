@@ -1,0 +1,64 @@
+.support-row {
+  border-bottom: 1px solid #d6d1d1;
+}
+
+.support-row .support-phone {
+  font-size: 12px;
+  word-spacing: 1px;
+}
+
+.support-phone .divider {
+  color: #d6d1d1;
+}
+
+.support-phone a,
+.support-phone p {
+  color: #666262;
+}
+.footer-column h6,
+.footer-last-column h6 {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 0 6px 0;
+  display: inline-flex !important;
+  color: rgb(68, 66, 66);
+  word-spacing: 2px;
+}
+
+.footer-column .nav li a {
+  color: rgb(129, 122, 122);
+  padding: 0;
+  font-size: 14px;
+}
+
+.footer-column .nav li a:hover {
+  color: rgb(77, 74, 74);
+}
+
+.footer-last-column .support a {
+  color: rgb(63, 60, 60);
+}
+
+.support-row {
+  border-bottom: 1px solid #efefef;
+}
+
+.footer-column .social .nav i {
+  font-size: 18px;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  color: rgb(163, 155, 155);
+}
+
+.footer-column .social .nav i:hover {
+  transform: translateY(-1px);
+  color: rgb(105, 102, 102);
+}
+
+.rights-resereved {
+  border-top: 1px solid #d6d1d1;
+  color: #979090;
+  font-size: 13px;
+  line-height: 45px;
+}

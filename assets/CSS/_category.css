@@ -1,0 +1,15 @@
+.cat-content img {
+  width: 120px;
+}
+
+.cat-content {
+  font-size: 13px;
+  color: rgb(56, 54, 54);
+  transition: 0.5s ease;
+  margin: 0.5rem;
+}
+
+.cat-content:hover {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  z-index: 2;
+}
