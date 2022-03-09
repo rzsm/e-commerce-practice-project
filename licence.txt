@@ -1,3 +1,5 @@
 This is a sample project of Raziyeh Soradi Moghaddam.
 
 UI Design Resource: www.digikala.com
+
+This is my practice project during the web design course at 7learn.com
